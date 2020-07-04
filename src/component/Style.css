@@ -1,0 +1,102 @@
+
+  .btn_download{
+    margin-top: 30px;
+    padding : 15px 40px;
+    font-size: 20px;
+    color : white;
+    background-color: #1BCA9B;
+    border : 2px solid white;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+
+  .btn_download:hover {
+    transition: 0.3s ease;
+    color : black;
+    background-color: white;
+  }
+
+  input{
+    font-size: 25px;
+    outline: none ;
+    border : 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  input:focus{
+    border : 0px;
+  }
+
+  textarea{
+    height: 200px;
+    font-size: 25px;
+    outline: none ;
+    border : 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  textarea:focus{
+    border : 0px;
+  }
+
+  #contact{
+      margin-bottom: 90px;
+  }
+
+  .er{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+  .centered{
+    position: absolute;    
+    width: 300px;
+    height:200px;
+    border-radius: 10px;    
+    transition: 0.3s all;
+  }
+
+  .d-flex:hover .centered{
+    background: rgba(54, 211, 172, 0.8) ;
+    
+  }
+
+  .centered_btn{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background : transparent;
+    border: none;
+    color : white;
+    opacity: 0;
+    transition: 0.3s all;
+  }
+
+  .d-flex:hover .centered_btn{
+    opacity: 1;
+  }
+
+  .centered_btn:focus{
+    outline: none;
+    border: none;
+  }
+  .clos{
+    margin-right: 20px;
+    background : transparent;
+    border: none;
+    color : #1BCA9B;
+  }
+
+ .clos:focus{
+    outline-color: #1BCA9B;
+  }
+
+  @media (min-width: 600px) {
+    .modal-xl {
+      width: 90%;
+     max-width:1200px;
+    }
+  }
