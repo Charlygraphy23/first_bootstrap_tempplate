@@ -27,7 +27,7 @@ const ModalPage = ({image}) =>(
                             </div>
 
                             <div className="row justify-content-center">
-                                    <img style={{width : "80%",borderRadius : "10px", margin: "30px" }} src={image} alt="image"/>
+                                    <img style={{width : "80%",borderRadius : "10px", margin: "30px" }} src={image} alt="image1"/>
                             </div>
 
                             <div className="row justify-content-center">
